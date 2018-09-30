@@ -1,0 +1,21 @@
+{
+  "name": "OMDbApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd Api && npm test",
+    "install-package-web": "cd Web && npm install",
+    "install-package-api": "cd Api && npm install",
+    "start-web": "cd Web && npm start",
+    "start-api": "cd Api && npm start",
+    "install": "concurrently - kill-others \"npm run install-package-api\" \"npm run install-package-web\"",
+    "start": "concurrently - kill-others \"npm run start-api\" \"npm run start-web\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^4.0.1"
+  }
+}

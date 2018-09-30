@@ -1,0 +1,6 @@
+api => node .\Service\service
+web => npm start (npm run dev)
+
+set to docker =>
+Docker for Windows requires Windows 10 Pro or Enterprise version 14393, or Windows server 2016 RTM to run
+error
