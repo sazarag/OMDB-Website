@@ -11,8 +11,7 @@ These instructions will get a copy of the project running on your local machine.
 
 ### Prerequisites
 
-* Node.js
-* Reach 
+* Node.js 
 
 ```
 $ brew install node
